@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here">
+      <UniqueIdentifier>{20856119-44cc-42a4-b268-b2dac0a09714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSlow">
+      <UniqueIdentifier>{5bb3f0e5-5636-475a-8601-d0d05efef70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSlow\include">
+      <UniqueIdentifier>{e07da70e-1dbf-4e91-99e7-0de1173a2cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSlow\lib">
+      <UniqueIdentifier>{491e36f9-bd1c-4ec4-a168-860356ec8b64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dist\FileSlow\include\FileSlow.h">
+      <Filter>_FileSlow\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Dist\FileSlow\lib\FileSlow_X86Debug.lib">
+      <Filter>_FileSlow\lib</Filter>
+    </Library>
+    <Library Include="..\Dist\FileSlow\lib\FileSlow_X86Release.lib">
+      <Filter>_FileSlow\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
